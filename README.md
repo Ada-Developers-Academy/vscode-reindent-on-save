@@ -1,4 +1,4 @@
-# Reindenter #
+# Reindent on Save #
 
 A simple VSCode formatter extension that wraps `editor.action.reindentlines`.
 

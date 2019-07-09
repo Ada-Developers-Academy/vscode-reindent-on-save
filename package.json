@@ -1,7 +1,7 @@
 {
-  "name": "reindenter",
-  "displayName": "formatter-sample",
-  "description": "",
+  "name": "reindent-on-save",
+  "displayName": "Reindent on Save",
+  "description": "Reindent your files on save.",
   "version": "0.0.1",
   "publisher": "Ada-Developers-Academy",
   "engines": {
@@ -11,14 +11,12 @@
     "Formatters"
   ],
   "activationEvents": [
-    "onLanguage:ruby"
+    "*"
   ],
   "main": "./out/src/extension",
   "contributes": {
-    "configurationDefaults": {
-      "[ruby]": {
-        "editor.formatOnSave": true
-      }
+    "configuration": {
+      "editor.formatOnSave": true
     }
   },
   "scripts": {

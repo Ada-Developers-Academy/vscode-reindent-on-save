@@ -15,17 +15,11 @@
   ],
   "main": "./out/src/extension",
   "contributes": {
-    "languages": [
-      {
-        "id": "ruby",
-        "aliases": [
-          "Ruby"
-        ],
-        "extensions": [
-          "ruby"
-        ]
+    "configurationDefaults": {
+      "[ruby]": {
+        "editor.formatOnSave": true
       }
-    ]
+    }
   },
   "scripts": {
     "postinstall": "node ./node_modules/vscode/bin/install && tsc"

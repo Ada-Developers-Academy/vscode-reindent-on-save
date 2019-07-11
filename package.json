@@ -2,7 +2,7 @@
   "name": "reindent-on-save",
   "displayName": "Reindent on Save",
   "description": "Reindent your files on save.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "publisher": "adadevelopersacademy",
   "homepage": "https://github.com/Ada-Developers-Academy/vscode-reindent-on-save",
   "repository": {

@@ -10,16 +10,22 @@ This extension is language agnostic.  So long as your language extension has ind
 
 Tested against VS Code 1.35.1
 
-## Reindent only for Some File Types ##
+## Supported Languages ##
 
-If you wanted to switch from reindenting on save globally to reindenting only for Ruby files you could make the following change to your `settings.json`.
+While theoretically this will work with any programming language the built-in indentation logic in VS Code leaves much to be desired.
+
+The following languages have been tested and will indent by default:
+* Ruby
+
+## Reindent for all file types ##
+
+If you would like to reindent for all file types you will need to add `"editor.formatOnSave": true` to your settings.json.
 
 To go from this:
 ```
 {
     "a setting": 42,
     "another example setting": "Hello, world!",
-    "editor.formatOnSave": true
 }
 ```
 
@@ -28,9 +34,6 @@ to:
 {
     "a setting": 42,
     "another example setting": "Hello, world!",
-    "[ruby]": {
-        "editor.formatOnSave": true
-    }
+    "editor.formatOnSave": true
 }
 ```
-

@@ -16,6 +16,7 @@ While theoretically this will work with any programming language the built-in in
 
 The following languages have been tested and will indent by default:
 * Ruby
+* JSON
 
 ## Reindent for all file types ##
 
